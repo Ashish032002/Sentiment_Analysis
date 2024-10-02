@@ -31,9 +31,10 @@ def scrape_reddit_data(subreddit_name, query, limit=1000):
         DataFrame containing post data
     """
     # Initialize Reddit API connection
-    reddit = praw.Reddit(client_id='a2Pa80XclX4btPF6MIsHfQ',
-                         client_secret='qQv5Hwuy0Z1_Z3sLNG2zY-DwtLPLfg',
-                         user_agent='my_reddit_scraper/0.4')
+    # Replace the credentials in the code with your own:
+    reddit = praw.Reddit(client_id='your_client_id',
+                         client_secret='your_client_secret',
+                         user_agent='your_user_agent')
     
     subreddit = reddit.subreddit(subreddit_name)
     posts = []
