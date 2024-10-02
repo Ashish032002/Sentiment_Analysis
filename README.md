@@ -56,18 +56,27 @@ pip install -r requirements.txt
 ## 🏗️ Project Structure
 ```
 project/
+├── Project2.py                  # Main script
+├── Visualizations/              # Folder containing visualized data
+│   ├── Raw_reddit_data/         # Folder for raw Reddit data CSV files
+│   │   ├── raw_reddit_data_*.csv  # Raw Reddit data for each stock
+│   ├── Processed_reddit_data/   # Folder for processed Reddit data CSV files
+│   │   ├── processed_data_*.csv   # Processed Reddit data for each stock
+│   ├── Stock_data/              # Folder for processed stock data CSV files
+│   │   ├── stock_data_*.csv       # Processed stock data for each stock
 │
-├── Project2.py          # Main script
-├── output/             # Generated output directory
-│   ├── raw_reddit_data_*.csv
-│   ├── processed_reddit_data_*.csv
-│   ├── stock_data_*.csv
-│   ├── sentiment_over_time_*.png
-│   ├── sentiment_vs_price_*.png
-│   ├── mentions_over_time_*.png
-│   └── correlation_heatmap_*.png
+├── Data/                        # Folder containing data visualizations
+│   ├── Sentiment_over_time/     # Folder for sentiment over time visualizations
+│   │   ├── sentiment_over_time_*.png   # Sentiment over time for each stock
+│   ├── Sentiment_vs_price/      # Folder for sentiment vs price visualizations
+│   │   ├── sentiment_vs_price_*.png    # Sentiment vs price for each stock
+│   ├── Mentions_over_time/      # Folder for mentions over time visualizations
+│   │   ├── mentions_over_time_*.png    # Mentions over time for each stock
+│   ├── Correlations_heatmap/    # Folder for correlation heatmaps
+│   │   ├── correlation_heatmap_*.png   # Correlation heatmap for each stock
 │
-└── README.md
+└── README.md                    # Documentation for the project
+
 ```
 
 ## 🔍 Core Components
