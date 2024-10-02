@@ -13,7 +13,7 @@ This project analyzes the relationship between Reddit sentiment and stock market
   - Stock price vs. sentiment correlation
   - Mention frequency analysis
   - Correlation heatmaps
-
+## Recommendations Pdf Contains Actionable Insights and Future Scope for Analysis
 ## 🛠️ Prerequisites
 ```
 - Python 3.x
